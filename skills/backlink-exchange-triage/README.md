@@ -19,11 +19,11 @@ It works with any email client the agent can reach: Gmail, Outlook / Microsoft 3
 **Claude Code**, any one of these:
 - One command, copying only this skill (needs Node):
   ```
-  npx degit YOUR_GITHUB_USERNAME/goutham-agent-skills/skills/backlink-exchange-triage ~/.claude/skills/backlink-exchange-triage
+  npx degit gouterz/goutham-agent-skills/skills/backlink-exchange-triage ~/.claude/skills/backlink-exchange-triage
   ```
 - Git, fetching only this folder:
   ```
-  git clone --depth 1 --filter=blob:none --sparse https://github.com/YOUR_GITHUB_USERNAME/goutham-agent-skills
+  git clone --depth 1 --filter=blob:none --sparse https://github.com/gouterz/goutham-agent-skills
   cd goutham-agent-skills
   git sparse-checkout set skills/backlink-exchange-triage
   ```

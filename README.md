@@ -41,7 +41,7 @@ Each skill's own README has the full steps. In short:
 - **Claude.ai / Claude Desktop:** download the skill's `.skill` file from [Releases](../../releases) and upload it under Settings, Capabilities, Skills.
 - **Claude Code:** copy the skill's folder into `~/.claude/skills/` (all projects) or `<project>/.claude/skills/` (one project). To copy a single skill without cloning the whole repo:
   ```
-  npx degit YOUR_GITHUB_USERNAME/goutham-agent-skills/skills/<skill-name> ~/.claude/skills/<skill-name>
+  npx degit gouterz/goutham-agent-skills/skills/<skill-name> ~/.claude/skills/<skill-name>
   ```
 - **Other agents:** point the agent at the skill's `SKILL.md`; it reads the files under `references/` when it needs them.
 
