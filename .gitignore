@@ -1,0 +1,34 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+*token*.json
+
+# What the skills write while running (your inbox data, config and logs)
+*-config.md
+*-log.md
+*-workspace/
+scratch/
+*.mbox
+*.eml
+
+# Fetched email and other run output
+*.json
+!**/evals/**/*.json
+
+# Built packages (attach these to GitHub Releases instead)
+dist/
+*.skill
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+desktop.ini
